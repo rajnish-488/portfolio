@@ -1,0 +1,50 @@
+
+
+.skill-title h1{
+	text-align: center;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+.skill-title span{
+	height: 3px;
+	width: 80%;
+	background-color: red;
+	position: absolute;
+	left: 10%;
+	
+}
+
+
+.skill-title .upsub .sub{
+	
+	height: 3px;
+	width: 40%;
+	background-color: black;
+	position: absolute;
+	left: 10%;
+	margin-left: 20%;
+	
+}
+
+.skill-tech{
+	display: flex;
+	justify-content: space-around;
+}
+
+.lag-icon{
+	align-items: center;
+	text-align: center;
+	margin: 5px;
+}
+
+.lag-icon i{
+	font-size: 50px;
+	
+}
+
+.education{
+	font-family: 'Ubantu' sans-serif;
+	background-color: lightgrey;
+	border-radius: 0.5em;
+	padding: 25px;
+}

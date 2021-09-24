@@ -1,0 +1,169 @@
+.aboutme{
+	margin-top: 40px;
+}
+
+.about-up h1{
+	text-align: center;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+.about-up span{
+	height: 3px;
+	width: 80%;
+	background-color: red;
+	position: absolute;
+	left: 10%;
+	
+}
+
+.about-down{
+	margin-top: 40px;
+	height: 500px;
+	display: flex;
+}
+
+.about-img{
+	width: 30%;
+	overflow: visible;
+	height: 500px;
+	border: 3px solid black;
+	border-radius: 10px;
+	background-color: gray;
+}
+
+.about-img img{
+
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	border-radius: 10px;
+
+}
+
+.about-img:hover{
+	transform: scale(1.08);
+}
+.about-content{
+	text-align: center;
+	padding: 20px;
+	width: 69%;
+	height: 550px;
+	padding-top: 0px;
+}
+
+.about-content h2{
+	font-family: 'Ubuntu', sans-serif;
+}
+
+.about-content p{
+	text-align: left;
+	padding: 40px;
+	padding-top: 20px;
+	font-size: 23px;
+	padding-bottom: 50px;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+.about-button{
+	display: flex;
+	justify-content: space-around;
+}
+
+.about-content a{
+	width: 50%;
+}
+
+.about-button a button{
+	width: 60%;
+	height: 50px;
+	border-radius: 0.5em;
+	background-color: lightblue;
+	box-shadow: 30px;
+	font-size: 20px;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+.about-button a button:hover{
+	transform: scale(1.2);
+	background-color: lightcoral;
+}
+
+
+/*++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+
+@media screen and (max-width: 1200px){
+.about-down{
+	height: 400px;
+}	
+
+.about-img{
+	width: 30%;
+	height: 400px;
+}
+.about-content p{
+	font-size: 20px;
+	padding-bottom: 1px;
+}
+}
+
+@media screen and (max-width: 990px){
+.about-down{
+	height: 400px;
+}	
+
+.about-img{
+	width: 40%;
+	height: 400px;
+}
+.about-content p{
+	font-size: 15px;
+	padding-bottom: 5px;
+
+}
+
+.about-button a button{
+	width: 80%;
+	font-size: 15px;
+}
+
+}
+
+@media screen and (max-width: 765px){
+.about-down{
+	height: 600px;
+	display: block;
+	align-items: center;
+	margin-left: 20%;
+}	
+
+.about-img{
+	width: 80%;
+	height: 600px;
+	align-items: center;
+}
+
+.about-content p{
+	padding: 0px;
+	text-align: center;
+	font-size: 15px;
+}
+.about-content{
+	text-align: center;
+	padding: 5px;
+	width: 69%;
+	height: 550px;
+	padding-top: 0px;
+	margin-left: 5%;
+}
+.about-button a button{
+	width: 94%;
+
+}
+.about-button a button:hover{
+	transform: scale(1.06);
+}
+.space-about{
+	height: 450px;
+}
+
+}
